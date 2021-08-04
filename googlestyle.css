@@ -159,12 +159,13 @@ header li:hover{
     display:flex;
     justify-content: space-between;
 
-    padding:15px;
+    padding: 10px;
 
     position:fixed;
     width:100%;
     left:0px;
     bottom:0px;
+
 }
 
 
@@ -183,7 +184,11 @@ header li:hover{
     margin:0;
     padding:0;
 }
-
+.footer-rightside{
+    flex-grow:1;
+    display:block;
+    padding-right:20px;
+}
 .ulfooter-rightside{
     list-style-type:none;
     text-align:right;
